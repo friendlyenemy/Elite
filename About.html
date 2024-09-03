@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="css/About.css">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <title>Home</title>
+</head>
+
+<body>
+   <nav>
+      <ul>
+         <li class="logo"><a href="index.php"><img id="im" src="./img/elite-logo1.png" alt="" height="50px" width="90px"></a></li>
+         <li class="btn"><span class="fas fa-bars" style="color: antiquewhite;"></span></li>
+         <div class="items">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="About.html">About</a></li>
+         </div>
+        
+         <li class="search-icon">
+            <input type="search" id="myInput" placeholder="Search">
+            <label class="icon" onclick="search()">
+               <span class="fas fa-search"></span>
+            </label>
+         </li>
+      </ul>
+   </nav>
+
+
+   <div class="about-section">
+      <div class="inner-container">
+         <h1>About Us</h1>
+         <p class="text">
+            This Website demonstrates a functioning of Movie downloading website. Where you can view and download many of your favourite and popular movies and have their full details, along with their quality.
+            This website allows you to download these movies totally free of cost. Also, these files are trusted and safe to download and works properly.
+            These files were scanned before uploading. You can select the quality of the movie between 480p, 720p & 1080p before downloading.
+            I am a student studying in Govt. Polytechnic for the degree in Diploma in Computer Technology.
+            I have built this website for completion of my PHP subject and also to help people who like entertainemnt.
+            DOWNLOAD AND ENJOY!!!! :)
+         </p>
+         <div class="skills">
+            <span>Web Developer</span>
+            <span>UI Design</span>
+            <span>Coding</span>
+         </div>
+      </div>
+      <div class="image">
+         <img src="./img/about_2.png" alt="image">
+         
+      </div>
+   </div>
+   <script>
+      $(document).ready(function(){
+            $('.btn').click(function(){
+                $('.items').toggleClass("show");
+                $('.items').toggleClass("hide");
+
+            });
+        });
+        $('nav ul li.btn span').click(function () {
+            $('nav ul div.items').toggleClass("hide");
+            $('nav ul li.btn span').toggleClass("show");
+        });     
+   </script>
+   <script src='script.js'></script>
+   
+</body>
+
+</html>
