@@ -1,18 +1,19 @@
+Please take note of the following information:
+
 # Elite
-A Movie-downloading website
-
-
-This is a basic project done using
+This is a movie-downloading website created using:
 - HTML
 - CSS
 - JavaScript
 - PHP
+- PHPMyAdmin
 
-  It consists of the following pages:
-  - index.php  (Main Page)
-  - detail.php (Detail Page)
-  - about.html  (About Us Page)
-  - addform.php (A form to upload new movies)
-  - delRecord.php (A form to delete new movie)
-  - server.php (FIle to connect to database)
-  
+To set it up, first install XAMPP on your local computer. Then, unzip the Elite file into the htdocs folder in the XAMPP directory.
+
+The website includes the following pages:
+- index.php (Main Page)
+- detail.php (Detail Page)
+- about.html (About Us Page)
+- addform.php (Form for uploading new movies)
+- delRecord.php (Form for deleting movies)
+- server.php (File for connecting to the database)
